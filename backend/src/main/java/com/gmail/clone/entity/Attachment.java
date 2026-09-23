@@ -23,6 +23,5 @@ public class Attachment {
     private long size;
 
     @Lob
-    @Column(columnDefinition = "LONGTEXT")
     private String data;
 }
